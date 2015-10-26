@@ -28,7 +28,7 @@ SECRET_KEY = 'e37b115p49tn#xngy$u-)%pqpges88*-3fpxu#-s6%u1_b1n=-'
 if ON_HEROKU == True:
     DEBUG = False
 else:
-   DEBUG = True
+    DEBUG = True
 
 ALLOWED_HOSTS = []
 

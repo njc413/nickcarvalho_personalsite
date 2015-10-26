@@ -1,1 +1,1 @@
-web:gunicorn nickcarvalho_personalsite.wsgi --log-file -
+web: gunicorn nickcarvalho_personalsite.wsgi --log-file -
