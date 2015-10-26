@@ -2,7 +2,16 @@
 {% block content %}
 <div class="jumbotron">
   <h1>Welcome to my personal Website</h1>
-  <p>Please message me for business inquiries</p>
+  <p><font color="green">Please message me for business inquiries</font></p>
+  <p><font color="Orange">Hometown: Attleboro, MA</font></p>
+  <p><font color="Yellow">Major: Computer Information Systems</font></p>
+  <p><font color="blue">Experience: System test technician at EMC Corporation</font></p>
+  <p>Hobbies: I enjoy playing hockey, racing motocross, and freelance web developing. I manage a website for Hutch Motorsports, a local motorcycle dealer.</p>
+
+  <h3><img alt="Racing this past July" src="/static/img/thewick.jpg" style="font-size: 14px; line-height: 1.42857143; width: 350px; height: 256px;" /></h3>
+
+
+
   <p><a href="{% url 'message_create' %}" class="btn btn-lg btn-primary">Submit Message</a></p>
 </div>
 {% endblock %}
